@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    font-size: 16px;
+    color: #222222;
+}
+
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    
+}
+
+.box11 {
+    padding: 5% 10% 1%;
+    
+}
+
+.perfil {
+    display: flex;  
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 5px;
+    color: #19304f;
+}
+
+.box11 img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.box11 h2 {
+    padding-bottom:11px  ;
+    font-size: 20px;
+    color: #19304f;
+}
+
+.box11 ul {
+    padding: 0px 20px 36px;
+    line-height: 25px;
+}
+
+.box11 p {
+    padding-bottom: 36px;
+    line-height: 20px;
+}
+
+.box11 a {
+    text-decoration: none;
+    color: #19304f;
+}
+
+.box11 a:hover{
+    color: gray;
+}
+.box2 {
+   width: 100%;
+   
+   background-color: #19304f;
+   color: #ffff;
+}
+
+.box22{
+    margin: 5% 10% 2%;
+    width: 80%;
+    
+}
+
+.box22 h2 {
+    margin-bottom: 11px;
+}
+.box22 ul {
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+.box22 li {
+    line-height: 30px;
+}
+.box22 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box22 img {
+    display: inline-block;
+    
+    width: 50px;
+    padding-left: 10px;
+    margin:0 2% 5%;
+}
+
+.conhecimentos li{
+    border-bottom: 4px #fff solid;
+    width: 80%;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+    .boxs{
+        display: flex;
+        flex-direction: row;
+    }
+    .box1{
+        width: 70%;
+
+    }
+
+    .box2{
+        width: 40%;
+    }
+    
+    
+
+    .box22{
+    margin: 30% 10% 2%;
+    width: 80%;
+
+    }
+
+    .box22 h2 {
+    margin-bottom: 11px;
+    }
+    .box22 ul {
+    list-style: none;
+    margin-bottom: 100px;
+    }
+
+    .box22 li {
+    line-height: 30px;
+    }
+    .box22 a {
+    text-decoration: none;
+    }
+
+    .box22 img {
+    display: inline-block;
+
+    width: 50px;
+    padding-left: 10px;
+    margin:0 2% 50%;
+    }
+
+    .conhecimentos li{
+    border-bottom: 4px #fff solid;
+    width: 80%;
+    line-height: 40px;
+
+    }
+}
